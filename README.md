@@ -1,4 +1,4 @@
-# StayNest
+# Waybnb
 ### Airbnb Clone for Educational Purposes
 
 This project is a frontend-only clone of the Airbnb homepage, created for educational purposes.  
