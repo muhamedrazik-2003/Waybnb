@@ -22,14 +22,18 @@
 .profile-section {
     min-width: 275px;
 }
-p {
-    font-size: 14px;
+p,i {
+    font-size: 16px;
 }
-.carousel-control-prev {
+#category {
+    overflow: hidden;
+}
+/* .carousel-control-prev {
     transform: translateX(-60px);
     opacity: 1;
 }
 .carousel-control-next {
     transform: translateX(60px);
     opacity: 1;
-}
+} */
+
