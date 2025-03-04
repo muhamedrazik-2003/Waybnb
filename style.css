@@ -25,3 +25,11 @@
 p {
     font-size: 14px;
 }
+.carousel-control-prev {
+    transform: translateX(-60px);
+    opacity: 1;
+}
+.carousel-control-next {
+    transform: translateX(60px);
+    opacity: 1;
+}
