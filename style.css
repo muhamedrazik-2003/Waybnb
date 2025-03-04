@@ -16,3 +16,9 @@
     background-color: rgb(232, 232, 232);
     border-radius: 25px;
 }
+.search-bar {
+    min-width: 347px;
+}
+.profile-section {
+    min-width: 275px;
+}
