@@ -27,146 +27,143 @@
 </head>
 
 <body>
-    <header class="container-fluid d-flex p-3 w-100 align-items-center justify-content-center border-bottom">
-        <div class="logo d-none d-md-flex align-items-center w-25 ms-4 me-auto">
-            <img src="./images/waybnb red logo.png" width="35px" alt="">
-            <h5>Waybnb</h5>
-        </div>
-        <div class="search-bar mx-2">
-            <nav class="navbar navbar-expand-sm border  p-1 rounded-pill shadow-sm justify-content-center text">
-                <ul class="navbar-nav d-none d-md-flex">
-                    <li class="nav-item px-1 fw-bold"><a class="nav-link" href="">Anywhere</a></li>
-                    <li class="nav-item px-1 fw-bold"><a class="nav-link" href="">Any Week</a></li>
-                    <li class="nav-item px-1"><a class="nav-link" href="">Add Guest</a></li>
-                    <li class="nav-item "><i class="fa-solid fa-magnifying-glass bg-danger rounded-circle p-2 m-1"
-                            style="color: #ffffff;"></i></li>
-                </ul>
-                <ul class="navbar-nav d-flex d-md-none">
-                    <li class="nav-item "><i class="fa-solid fa-magnifying-glass  rounded-circle p-2 m-1"
-                            style="color: #000000;"></i> Start You Search</li>
-                </ul>
-            </nav>
-        </div>
-        <div class="profile-section w-25 d-none d-md-flex  align-items-centerv justify-content-end me-4 ms-auto">
-            <nav class="navbar navbar-expand-sm rounded-pill ">
-                <ul class="navbar-nav ">
-                    <li class="nav-item"><a class="nav-link" href="">Add Your Home</a></li>
-                    <li class="nav-item"><a href=""></a><i class="fa-solid fa-globe p-2 m-1"
-                            style="color: #000000;"></i></a></li>
-                </ul>
-            </nav>
-            <div class="dropdown profile">
-                <button type="button" class="navbar-toggler border p-3 rounded-pill " data-bs-toggle="dropdown">
-                    <i class="fa-solid fa-bars me-3" style="color: #000000;"></i>
-                    <i class="fa-regular fa-user" style="color: #000000;"></i>
-                </button>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item mb-1 fw-bold" href="#">Sign Up</a></li>
-                    <li><a class="dropdown-item mb-1 pb-3 border-bottom" href="#">Login</a></li>
-                    <li><a class="dropdown-item mb-1 " href="#">Add Your Home</a></li>
-                    <li><a class="dropdown-item mb-1" href="#">Host an Experience</a></li>
-                    <li><a class="dropdown-item mb-1" href="#">Help Center</a></li>
-                </ul>
+    <div class="container-fluid p-0 fixed-top bg-light">
+        <header class="container-fluid d-flex p-3 w-100 align-items-center justify-content-center border-bottom">
+            <div class="logo d-none d-md-flex align-items-center w-25 ms-4 me-auto">
+                <img src="./images/waybnb red logo.png" width="35px" alt="">
+                <h5>Waybnb</h5>
             </div>
-        </div>
-    </header>
-    <!-- category and filter section -->
-    <section class="row container-fluid border-bottom">
-
-        <div class="col-12 col-md-6 col-lg-8 col-xl-9">
-            <div class="d-flex text-secondary align-items-center overflow-hidden p-1" id="category">
-                <div class="text-center mx-3">
-                    <i class="fas fa-bed"></i>
-                    <p>Rooms</p>
-                </div>
-                <div class="text-center mx-3">
-                    <i class="fas fa-ticket-alt "></i>
-                    <p>Icons</p>
-                </div>
-                <div class="text-center mx-3">
-                    <i class="fas fa-tractor "></i>
-                    <p>Farms</p>
-                </div>
-                <div class="text-center mx-3">
-                    <i class="fas fa-swimming-pool"></i>
-                    <p>Pools</p>
-                </div>
-                <div class="text-center mx-3">
-                    <i class="fas fa-gem "></i>
-                    <p>Luxe</p>
-                </div>
-                <div class="text-center mx-3">
-                    <i class="fas fa-tree "></i>
-                    <p>Treehouses</p>
-                </div>
-                <div class="text-center mx-3">
-                    <i class="fas fa-wine-bottle "></i>
-                    <p>Vineyards</p>
-                </div>
-                <div class="text-center mx-3 flex-shrink-0">
-                    <i class="fas fa-image "></i>
-                    <p>Great Views</p>
-                </div>
-                <div class="text-center mx-3">
-                    <i class="fas fa-box "></i>
-                    <p>Containers</p>
-                </div>
-                <div class="text-center me-4">
-                    <i class="fas fa-coffee "></i>
-                    <p>Breakfasts</p>
-                </div>
-                <div class="text-center me-4">
-                    <i class="fas fa-campground "></i>
-                    <p>Camping</p>
-                </div>
-                <div class="text-center me-4">
-                    <i class="fas fa-umbrella-beach "></i>
-                    <p>Beach</p>
-                </div>
-                <div class="text-center me-4">
-                    <i class="fas fa-gem "></i>
-                    <p>Luxe</p>
-                </div>
-                <div class="text-center me-4 flex-shrink-0">
-                    <i class="fas fa-solar-panel "></i>
-                    <p>Off-the-grid</p>
-                </div>
-                <div class="text-center me-4">
-                    <i class="fas fa-chess-rook "></i>
-                    <p>Castles</p>
-                </div>
-                <div class="text-center me-4">
-                    <i class="fas fa-tractor "></i>
-                    <p>Farms</p>
-                </div>
-
-
+            <div class="search-bar mx-2">
+                <nav class="navbar navbar-expand-sm border  p-1 rounded-pill shadow-sm justify-content-center text">
+                    <ul class="navbar-nav d-none d-md-flex">
+                        <li class="nav-item px-1 fw-bold"><a class="nav-link" href="">Anywhere</a></li>
+                        <li class="nav-item px-1 fw-bold"><a class="nav-link" href="">Any Week</a></li>
+                        <li class="nav-item px-1"><a class="nav-link" href="">Add Guest</a></li>
+                        <li class="nav-item "><i class="fa-solid fa-magnifying-glass bg-danger rounded-circle p-2 m-1"
+                                style="color: #ffffff;"></i></li>
+                    </ul>
+                    <ul class="navbar-nav d-flex d-md-none">
+                        <li class="nav-item "><i class="fa-solid fa-magnifying-glass  rounded-circle p-2 m-1"
+                                style="color: #000000;"></i> Start You Search</li>
+                    </ul>
+                </nav>
             </div>
-        </div>
-        <div class="col-md-6 col-lg-4 col-xl-3">
-            <div class="d-none d-md-flex justify-content-end align-items-center h-100 ">
-                <div class="flex-shrink-0">
-                    <button class="btn border rounded-3 me-2"><i class="fas fa-sliders-h"></i>Filter</button>
+            <div class="profile-section w-25 d-none d-md-flex  align-items-centerv justify-content-end me-4 ms-auto">
+                <nav class="navbar navbar-expand-sm rounded-pill ">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item"><a class="nav-link" href="">Add Your Home</a></li>
+                        <li class="nav-item"><a href=""></a><i class="fa-solid fa-globe p-2 m-1"
+                                style="color: #000000;"></i></a></li>
+                    </ul>
+                </nav>
+                <div class="dropdown profile">
+                    <button type="button" class="navbar-toggler border p-3 rounded-pill " data-bs-toggle="dropdown">
+                        <i class="fa-solid fa-bars me-3" style="color: #000000;"></i>
+                        <i class="fa-regular fa-user" style="color: #000000;"></i>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item mb-1 fw-bold" href="#">Sign Up</a></li>
+                        <li><a class="dropdown-item mb-1 pb-3 border-bottom" href="#">Login</a></li>
+                        <li><a class="dropdown-item mb-1 " href="#">Add Your Home</a></li>
+                        <li><a class="dropdown-item mb-1" href="#">Host an Experience</a></li>
+                        <li><a class="dropdown-item mb-1" href="#">Help Center</a></li>
+                    </ul>
                 </div>
-                <div class="flex-shrink-0">
-                    <div class="form-check form-switch align-items-center btn border rounded-3">
-                        <label class="form-check-label ms-3" for="toggleSwitch">Display total Before Tax</label>
-                        <input class="form-check-input p-2 mx-auto" type="checkbox" id="toggleSwitch">
+            </div>
+        </header>
+        <!-- category and filter section -->
+        <section class="row container-fluid border-bottom">
+
+            <div class="col-12 col-md-6 col-lg-8 col-xl-9">
+                <div class="d-flex text-secondary align-items-center overflow-hidden p-1" id="category">
+                    <div class="text-center mx-3">
+                        <i class="fas fa-bed"></i>
+                        <p>Rooms</p>
+                    </div>
+                    <div class="text-center mx-3">
+                        <i class="fas fa-ticket-alt "></i>
+                        <p>Icons</p>
+                    </div>
+                    <div class="text-center mx-3">
+                        <i class="fas fa-tractor "></i>
+                        <p>Farms</p>
+                    </div>
+                    <div class="text-center mx-3">
+                        <i class="fas fa-swimming-pool"></i>
+                        <p>Pools</p>
+                    </div>
+                    <div class="text-center mx-3">
+                        <i class="fas fa-gem "></i>
+                        <p>Luxe</p>
+                    </div>
+                    <div class="text-center mx-3">
+                        <i class="fas fa-tree "></i>
+                        <p>Treehouses</p>
+                    </div>
+                    <div class="text-center mx-3">
+                        <i class="fas fa-wine-bottle "></i>
+                        <p>Vineyards</p>
+                    </div>
+                    <div class="text-center mx-3 flex-shrink-0">
+                        <i class="fas fa-image "></i>
+                        <p>Great Views</p>
+                    </div>
+                    <div class="text-center mx-3">
+                        <i class="fas fa-box "></i>
+                        <p>Containers</p>
+                    </div>
+                    <div class="text-center me-4">
+                        <i class="fas fa-coffee "></i>
+                        <p>Breakfasts</p>
+                    </div>
+                    <div class="text-center me-4">
+                        <i class="fas fa-campground "></i>
+                        <p>Camping</p>
+                    </div>
+                    <div class="text-center me-4">
+                        <i class="fas fa-umbrella-beach "></i>
+                        <p>Beach</p>
+                    </div>
+                    <div class="text-center me-4">
+                        <i class="fas fa-gem "></i>
+                        <p>Luxe</p>
+                    </div>
+                    <div class="text-center me-4 flex-shrink-0">
+                        <i class="fas fa-solar-panel "></i>
+                        <p>Off-the-grid</p>
+                    </div>
+                    <div class="text-center me-4">
+                        <i class="fas fa-chess-rook "></i>
+                        <p>Castles</p>
+                    </div>
+                    <div class="text-center me-4">
+                        <i class="fas fa-tractor "></i>
+                        <p>Farms</p>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="d-none d-md-flex justify-content-end align-items-center h-100 ">
+                    <div class="flex-shrink-0">
+                        <button class="btn border rounded-3 me-2"><i class="fas fa-sliders-h"></i>Filter</button>
+                    </div>
+                    <div class="flex-shrink-0">
+                        <div class="form-check form-switch align-items-center btn border rounded-3">
+                            <label class="form-check-label ms-3" for="toggleSwitch">Display total Before Tax</label>
+                            <input class="form-check-input p-2 mx-auto" type="checkbox" id="toggleSwitch">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
+        </section>
+    </div>
     <!-- card section -->
     <section class=" container-fluid">
         <div class="row mx-4 mt-3  justify-content-center gap-3">
             <div class="card  col-sm-12 col-md-5 col-lg-3 col-xl p-0 border-0">
-                <div 
-                    class="carousel slide" 
-                    data-bs-wrap="true" 
-                    data-bs-ride="carousel" 
-                    id="card-carousel-1">
+                <div class="carousel slide" data-bs-wrap="true" data-bs-ride="carousel" id="card-carousel-1">
                     <div class="carousel-inner rounded-3">
                         <div class="carousel-item active">
                             <img src="./images/card 01 01.jpg" class="w-100">
@@ -174,21 +171,19 @@
                         <div class="carousel-item">
                             <img src="./images/card 01 02.jpg" class="w-100">
                         </div>
-                        <button 
-                            class="carousel-control-prev opacity-100" 
-                            data-bs-target="#card-carousel-1" 
+                        <button class="carousel-control-prev opacity-100" data-bs-target="#card-carousel-1"
                             data-bs-slide="prev">
                             <span class="carousel-control-prev-icon border rounded-circle"></span>
                         </button>
-                        <button 
-                            class="carousel-control-next opacity-100" 
-                            data-bs-target="#card-carousel-1" 
+                        <button class="carousel-control-next opacity-100" data-bs-target="#card-carousel-1"
                             data-bs-slide="next">
                             <span class="carousel-control-next-icon border rounded-circle"></span>
                         </button>
                         <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#card-carousel-1" data-bs-slide-to="0" class="active rounded-circle" style="width: 10px; height: 10px;"></button>
-                            <button type="button" data-bs-target="#card-carousel-1" data-bs-slide-to="1" class=" rounded-circle" style="width: 10px; height: 10px;"></button>
+                            <button type="button" data-bs-target="#card-carousel-1" data-bs-slide-to="0"
+                                class="active rounded-circle" style="width: 10px; height: 10px;"></button>
+                            <button type="button" data-bs-target="#card-carousel-1" data-bs-slide-to="1"
+                                class=" rounded-circle" style="width: 10px; height: 10px;"></button>
                         </div>
                     </div>
                 </div>
@@ -205,11 +200,7 @@
                 </div>
             </div>
             <div class="card  col-sm-12 col-md-5 col-lg-3 col-xl p-0 border-0">
-                <div 
-                    class="carousel slide" 
-                    data-bs-wrap="true" 
-                    data-bs-ride="carousel" 
-                    id="card-carousal-2">
+                <div class="carousel slide" data-bs-wrap="true" data-bs-ride="carousel" id="card-carousal-2">
                     <div class="carousel-inner rounded-3">
                         <div class="carousel-item active">
                             <img src="./images/card 02 01.jpg" class="w-100">
@@ -217,21 +208,19 @@
                         <div class="carousel-item">
                             <img src="./images/card 02 02.jpg" class="w-100">
                         </div>
-                        <button 
-                            class="carousel-control-prev opacity-100" 
-                            data-bs-target="#card-carousal-2" 
+                        <button class="carousel-control-prev opacity-100" data-bs-target="#card-carousal-2"
                             data-bs-slide="prev">
                             <span class="carousel-control-prev-icon border rounded-circle"></span>
                         </button>
-                        <button 
-                            class="carousel-control-next opacity-100" 
-                            data-bs-target="#card-carousal-2" 
+                        <button class="carousel-control-next opacity-100" data-bs-target="#card-carousal-2"
                             data-bs-slide="next">
                             <span class="carousel-control-next-icon border rounded-circle"></span>
                         </button>
                         <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#card-carousal-2" data-bs-slide-to="0" class="active rounded-circle" style="width: 10px; height: 10px;"></button>
-                            <button type="button" data-bs-target="#card-carousal-2" data-bs-slide-to="1" class=" rounded-circle" style="width: 10px; height: 10px;"></button>
+                            <button type="button" data-bs-target="#card-carousal-2" data-bs-slide-to="0"
+                                class="active rounded-circle" style="width: 10px; height: 10px;"></button>
+                            <button type="button" data-bs-target="#card-carousal-2" data-bs-slide-to="1"
+                                class=" rounded-circle" style="width: 10px; height: 10px;"></button>
                         </div>
                     </div>
                 </div>
@@ -248,11 +237,7 @@
                 </div>
             </div>
             <div class="card  col-sm-12 col-md-5 col-lg-3 col-xl p-0 border-0">
-                <div 
-                    class="carousel slide" 
-                    data-bs-wrap="true" 
-                    data-bs-ride="carousel" 
-                    id="card-carousal-3">
+                <div class="carousel slide" data-bs-wrap="true" data-bs-ride="carousel" id="card-carousal-3">
                     <div class="carousel-inner rounded-3">
                         <div class="carousel-item active">
                             <img src="./images/card 03 01.jpg" class="w-100">
@@ -260,21 +245,19 @@
                         <div class="carousel-item">
                             <img src="./images/card 03 02.jpg" class="w-100">
                         </div>
-                        <button 
-                            class="carousel-control-prev opacity-100" 
-                            data-bs-target="#card-carousal-3" 
+                        <button class="carousel-control-prev opacity-100" data-bs-target="#card-carousal-3"
                             data-bs-slide="prev">
                             <span class="carousel-control-prev-icon border rounded-circle"></span>
                         </button>
-                        <button 
-                            class="carousel-control-next opacity-100" 
-                            data-bs-target="#card-carousal-3" 
+                        <button class="carousel-control-next opacity-100" data-bs-target="#card-carousal-3"
                             data-bs-slide="next">
                             <span class="carousel-control-next-icon border rounded-circle"></span>
                         </button>
                         <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#card-carousal-3" data-bs-slide-to="0" class="active rounded-circle" style="width: 10px; height: 10px;"></button>
-                            <button type="button" data-bs-target="#card-carousal-3" data-bs-slide-to="1" class=" rounded-circle" style="width: 10px; height: 10px;"></button>
+                            <button type="button" data-bs-target="#card-carousal-3" data-bs-slide-to="0"
+                                class="active rounded-circle" style="width: 10px; height: 10px;"></button>
+                            <button type="button" data-bs-target="#card-carousal-3" data-bs-slide-to="1"
+                                class=" rounded-circle" style="width: 10px; height: 10px;"></button>
                         </div>
                     </div>
                 </div>
@@ -291,11 +274,7 @@
                 </div>
             </div>
             <div class="card  col-sm-12 col-md-5 col-lg-3 col-xl p-0 border-0">
-                <div 
-                    class="carousel slide" 
-                    data-bs-wrap="true" 
-                    data-bs-ride="carousel" 
-                    id="card-carousal-4">
+                <div class="carousel slide" data-bs-wrap="true" data-bs-ride="carousel" id="card-carousal-4">
                     <div class="carousel-inner rounded-3">
                         <div class="carousel-item active">
                             <img src="./images/card 04 01.jpg" class="w-100">
@@ -303,21 +282,19 @@
                         <div class="carousel-item">
                             <img src="./images/card 04 02.jpg" class="w-100">
                         </div>
-                        <button 
-                            class="carousel-control-prev opacity-100" 
-                            data-bs-target="#card-carousal-4" 
+                        <button class="carousel-control-prev opacity-100" data-bs-target="#card-carousal-4"
                             data-bs-slide="prev">
                             <span class="carousel-control-prev-icon border rounded-circle"></span>
                         </button>
-                        <button 
-                            class="carousel-control-next opacity-100" 
-                            data-bs-target="#card-carousal-4" 
+                        <button class="carousel-control-next opacity-100" data-bs-target="#card-carousal-4"
                             data-bs-slide="next">
                             <span class="carousel-control-next-icon border rounded-circle"></span>
                         </button>
                         <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#card-carousal-4" data-bs-slide-to="0" class="active rounded-circle" style="width: 10px; height: 10px;"></button>
-                            <button type="button" data-bs-target="#card-carousal-4" data-bs-slide-to="1" class=" rounded-circle" style="width: 10px; height: 10px;"></button>
+                            <button type="button" data-bs-target="#card-carousal-4" data-bs-slide-to="0"
+                                class="active rounded-circle" style="width: 10px; height: 10px;"></button>
+                            <button type="button" data-bs-target="#card-carousal-4" data-bs-slide-to="1"
+                                class=" rounded-circle" style="width: 10px; height: 10px;"></button>
                         </div>
                     </div>
                 </div>
