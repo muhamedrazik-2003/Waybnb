@@ -10,14 +10,7 @@
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-    <!-- Bootstrap JavaScript Libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-        crossorigin="anonymous"></script>
     <!-- css -->
     <link rel="stylesheet" href="style.css">
     <!-- fontawesome cdn -->
@@ -51,8 +44,8 @@
             <div class="profile-section w-25 d-none d-md-flex  align-items-centerv justify-content-end me-4 ms-auto">
                 <nav class="navbar navbar-expand-sm rounded-pill ">
                     <ul class="navbar-nav ">
-                        <li class="nav-item"><a class="nav-link" href="">Add Your Home</a></li>
-                        <li class="nav-item"><a href=""></a><i class="fa-solid fa-globe p-2 m-1"
+                        <li class="nav-item  my-1"><a class="nav-link" href="">Add Your Home</a></li>
+                        <li class="nav-item  my-1"><a href=""></a><i class="fa-solid fa-globe p-2 m-1"
                                 style="color: #000000;"></i></a></li>
                     </ul>
                 </nav>
@@ -62,11 +55,12 @@
                         <i class="fa-regular fa-user" style="color: #000000;"></i>
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item mb-1 fw-bold" href="#">Sign Up</a></li>
-                        <li><a class="dropdown-item mb-1 pb-3 border-bottom" href="#">Login</a></li>
-                        <li><a class="dropdown-item mb-1 " href="#">Add Your Home</a></li>
-                        <li><a class="dropdown-item mb-1" href="#">Host an Experience</a></li>
-                        <li><a class="dropdown-item mb-1" href="#">Help Center</a></li>
+                        <li class="nav-item  my-1"><a class="dropdown-item mb-1 fw-bold" href="#">Sign Up</a></li>
+                        <li class="nav-item  my-1"><a class="dropdown-item mb-1 pb-3 border-bottom" href="#">Login</a>
+                        </li>
+                        <li class="nav-item  my-1"><a class="dropdown-item mb-1 " href="#">Add Your Home</a></li>
+                        <li class="nav-item  my-1"><a class="dropdown-item mb-1" href="#">Host an Experience</a></li>
+                        <li class="nav-item  my-1"><a class="dropdown-item mb-1" href="#">Help Center</a></li>
                     </ul>
                 </div>
             </div>
@@ -1073,13 +1067,13 @@
         </div>
     </section>
     <!-- footer section -->
-    <footer class=" container-fluid bg-secondary bg-opacity-10 text-dark ">
-        <div class="discover container-fluid mx-3 pt-5 h-50">
+    <footer class=" container-fluid bg-secondary bg-opacity-10 text-dark">
+        <div class="discover container-fluid px-4 pt-5 h-50 border-bottom border-secondary">
             <h4>Discover your next adventure</h4>
             <!-- tab section -->
             <div class="mt-2 ">
                 <ul class="nav nav-tabs flex-nowrap overflow-hidden border-bottom  border-secondary" role="tablist">
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item  my-1" role="presentation">
                         <button class="nav-link text-dark active" role="tab" data-bs-toggle="tab"
                             data-bs-target="#popular">Popular</button>
                     </li>
@@ -1087,15 +1081,15 @@
                         <button class="nav-link text-dark" role="tab" data-bs-toggle="tab"
                             data-bs-target="#artsAndCulture">Arts & culture</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item  my-1" role="presentation">
                         <button class="nav-link text-dark" role="tab" data-bs-toggle="tab"
                             data-bs-target="#outdoor">Outdoor</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item  my-1" role="presentation">
                         <button class="nav-link text-dark" role="tab" data-bs-toggle="tab"
                             data-bs-target="#mountains">Mountains</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item  my-1" role="presentation">
                         <button class="nav-link text-dark" role="tab" data-bs-toggle="tab"
                             data-bs-target="#beach">Beach</button>
                     </li>
@@ -1104,7 +1098,7 @@
                             data-bs-target="#uniqueStays">Unique
                             stays</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item  my-1" role="presentation">
                         <button class="nav-link text-dark" role="tab" data-bs-toggle="tab"
                             data-bs-target="#categories">Categories</button>
                     </li>
@@ -1832,19 +1826,53 @@
 
             </div>
         </div>
-        <div class="support">
-
-        </div>
-        <div class="hosting">
-
-        </div>
-        <div class="about-more">
-
+        <div class="container-fluid row gap-4 align-items-center mx-2 py-5 border-bottom border-secondary">
+            <div class="col-sm-12 col-md-5 col-lg">
+                <h6>Support</h6>
+                <ul class="navbar-nav">
+                    <li class="nav-item  my-1">Help Center</li>
+                    <li class="nav-item  my-1">WayCover</li>
+                    <li class="nav-item  my-1">Anti-discrimination</li>
+                    <li class="nav-item  my-1">Accessibility support</li>
+                    <li class="nav-item  my-1">Cancellation options</li>
+                    <li class="nav-item  my-1">Report</li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-md-5 col-lg">
+                <h6>Hosting</h6>
+                <ul class="navbar-nav">
+                    <li class="nav-item  my-1">Host your place</li>
+                    <li class="nav-item  my-1">Hosting resources</li>
+                    <li class="nav-item  my-1">Community forum</li>
+                    <li class="nav-item  my-1">Responsible hosting</li>
+                    <li class="nav-item  my-1">join a hosting session</li>
+                    <li class="nav-item  my-1">Find a co-host</li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-md-5 col-lg">
+                <h6>Waybnb</h6>
+                <ul class="navbar-nav">
+                    <li class="nav-item  my-1">Newsroom</li>
+                    <li class="nav-item  my-1">New Features</li>
+                    <li class="nav-item  my-1">Careers</li>
+                    <li class="nav-item  my-1">Investors</li>
+                    <li class="nav-item  my-1">emergency</li>
+                </ul>
+            </div>
         </div>
         <div class="footer">
 
         </div>
     </footer>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
