@@ -8,9 +8,9 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
-
 body {
     padding-top: 170px;
+    padding-bottom: 45px;
 }
 
 .search-bar:hover,
@@ -18,34 +18,28 @@ body {
     border-radius: 25px;
     box-shadow: 0 1px 5px rgb(183, 183, 183);
 }
-
 header .nav-item:hover {
     background-color: rgb(232, 232, 232);
     border-radius: 25px;
 }
-
 .search-bar {
     min-width: 347px;
 }
-
 .profile-section {
     min-width: 275px;
 }
 
-p,
-i {
+p, i {
     font-size: 14px;
 }
 
 #category {
     overflow: hidden;
 }
-
 .carousel-control-prev,
 .carousel-control-next {
     filter: invert(100%);
 }
-
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     visibility: hidden;
@@ -53,11 +47,15 @@ i {
     padding: 10px;
 
 }
-
 .carousel:hover .carousel-control-prev-icon,
 .carousel:hover .carousel-control-next-icon {
     visibility: visible;
 }
 .tab-content h6{
     font-size: 14px;
+}
+
+.footer a:hover{
+    text-shadow: 0 0 3px black;
+    border-radius: 25px;
 }
