@@ -1,15 +1,30 @@
 # Waybnb
 ### Airbnb Clone for Educational Purposes
 
-This project is a frontend-only clone of the Airbnb homepage, created for educational purposes.  
-Built with:
-- HTML
-- CSS
-- Bootstrap
+#Project Overview
 
-## Features
-- Responsive Navbar
-- Modern UI Design
+Waybnb is a frontend clone website of Airbnb, created for educational purposes only. This project replicates the visual design of Airbnb using HTML, CSS, and Bootstrap 5 without any JavaScript functionality.
+
+#Disclaimer
+
+This website is strictly for educational purposes only and is not affiliated with Airbnb in any way. The content, design, and images are used only to replicate the website for learning purposes.
+
+#Technologies Used
+
+HTML5
+CSS3
+Bootstrap 5
+
+#Features
+
+Responsive Design
+Grid Layouts
+Custom Footer
+Image Placeholders
+Multi-section Layout
+
+#Author
+Developed by Muhamed Razik for educational purposes in 2025.
 
 ---
 
